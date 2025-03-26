@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yujun Sun - Personal Webpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #F8F8F8;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #2C3E50;
+      color: #FFF;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background-color: #1ABC9C;
+      padding: 30px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      color: #FFF;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+    }
+    a {
+      color: #E74C3C;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #C0392B;
+    }
+    .projects a {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+      color: #FFF;
+      background-color: #E74C3C;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .projects a:hover {
+      background-color: #C0392B;
+      transform: scale(1.1);
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Yujun Sun</h1>
+    <p>Welcome to my personal webpage – showcasing my skills, projects, and creativity!</p>
+  </header>
+
+  <div class="section">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>Hi! I'm Yujun Sun, a passionate developer and creative thinker. I specialize in building elegant and effective web-based solutions. Explore my work and feel free to reach out!</p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React, Node.js</li>
+        <li>Python, Flask</li>
+        <li>SQL, MongoDB</li>
+        <li>Data Analysis & Visualization</li>
+        <li>Data Science, PyTorch, Machine Learning Modeling</li>
+      </ul>
+    </div>
+
+    <div class="card projects">
+      <h2>Highlighted Projects</h2>
+      <p>Explore some of my exciting projects below:</p>
+      <a href="http://samsunyujun.com/amazon" target="_blank">Amazon Data Tool</a>
+      <a href="https://campuslens.xyz/" target="_blank">CampusLens - Real-time People Detection</a>
+    </div>
+
+    <div class="card">
+      <h2>Research Papers</h2>
+      <p>I have contributed to two research papers in the field of data science and machine learning. You can access them below:</p>
+      <ul>
+        <li><a href="#" target="_blank">Paper 1 Title - Link Coming Soon</a></li>
+        <li><a href="#" target="_blank">Paper 2 Title - Link Coming Soon</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
+
